@@ -47,7 +47,7 @@ export default function Home() {
   };
 
   return (
-    <div className="mt-12 w-full space-y-8">
+    <div className="space-y-8">
       <Features />
       <div className="space-y-2 text-slate-600">
         <p className="font-semibold italic">Try some examples</p>
