@@ -43,7 +43,16 @@ export default async function Detail({ params }: { params: { id: string } }) {
             <Summary id={params.id} />
           </Suspense>
         </TabsContent>
-        <TabsContent value="chat">WIP</TabsContent>
+        <TabsContent value="chat">
+          <p className="text-sm italic">功能开发中</p>
+          <a
+            href="https://gpt.bytedance.net/gpt_agent/app/1697712207913249/workbench"
+            target="_blank"
+            className="underline text-blue-600"
+          >
+            点击此处访问Chatbot
+          </a>
+        </TabsContent>
       </Tabs>
     </div>
   );

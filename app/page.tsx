@@ -20,6 +20,8 @@ export default function Home() {
   const { toast } = useToast();
   const router = useRouter();
 
+  console.log("home page rendered");
+
   const handleSubmit = async () => {
     try {
       setLoading(true);
