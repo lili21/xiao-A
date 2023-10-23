@@ -32,8 +32,9 @@ export default function Home() {
         cache: "no-cache",
       });
       const {
-        data: { id },
+        data: { id, essay },
       } = await res.json();
+      localStorage.setItem(`${id}_essay`, essay);
       router.push(`/${id}`);
     } catch (e) {
       toast({

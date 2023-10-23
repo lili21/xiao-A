@@ -36,7 +36,7 @@ export default function RootLayout({
           <h1 className="font-mono text-4xl">FeishuMinutesGPT</h1>
         </div>
 
-        <main className="container m-auto">{children}</main>
+        <main className="m-auto max-w-5xl">{children}</main>
       </body>
     </html>
   );

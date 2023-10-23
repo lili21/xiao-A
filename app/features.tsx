@@ -2,7 +2,6 @@
  * v0 by Vercel.
  * @see https://v0.dev/t/ueNZnPfnwRW
  */
-import { Button } from "@/components/ui/button";
 import { CardContent, Card } from "@/components/ui/card";
 
 export function Features() {
