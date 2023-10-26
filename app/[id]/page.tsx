@@ -46,7 +46,7 @@ export default async function Detail({ params }: { params: { id: string } }) {
         <TabsContent value="chat">
           <p className="text-sm italic">功能开发中</p>
           <a
-            href="https://gpt.bytedance.net/gpt_agent/app/1697712207913249/workbench"
+            href="https://gpt.bytedance.net/gpt_agent/square?app_id=1697712207913249"
             target="_blank"
             className="underline text-blue-600"
           >
